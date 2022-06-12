@@ -1,0 +1,132 @@
+
+
+.logo{
+width: 90px;
+height: 90px;
+border-radius: 20px;
+}
+.container1{
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 10px;
+}
+
+.container2{
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 600px;
+	top: 444px;
+}
+
+.container3{
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 1165px;
+	top: 444px;
+}
+
+.container4{
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 10px;
+	top: 1000px;
+}
+
+.container5{
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 1165px;
+	top: 1000px;
+}
+
+.container6{
+	border: solid;
+	width: 406px;
+	border: solid;
+	width: 406px;
+	position: absolute;
+	left: 600px;
+	top: 1000px;
+}
+
+.ventana{
+background:yellowgreen;
+width: 35%;
+color: black;
+font-family:sans-serif;
+font-size: 14px;
+text-align: center;
+padding: 24px;
+min-height: 250px;
+border-radius: 22px;
+position: absolute;
+left:34%;
+top: 80%;
+display: non;
+}
+
+#cerrar{
+	position: absolute;
+	right: 3px;
+	top: 1px;
+}
+
+/*-----*/
+
+
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+//*#btn-modal: checked ~.modal{
+	opacity: 1;
+	visibility: visible;
+}*//
+
+.contenedor{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+	transition: all 500ms ease;
+	position: relative;
+}
+
+.contenedor header{
+  padding: 10px;
+  background: #db8046;
+  color: #fff;
+}
+
+//*.contenedor label{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#btn-modal{
+	display: none;
+}
+
+.lbl-modal{
+	background: coral;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+}*//

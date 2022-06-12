@@ -1,0 +1,71 @@
+.card:hover{
+	transform:scale(1.1);
+	box-shadow: 0px 2px 90px #A4A4A4;
+
+}
+
+.logo{
+width: 90px;
+height: 90px;
+border-radius: 20px;
+}
+
+
+h5{
+	text-align: center;
+	font-family: fantasy;
+	text-shadow: 2px 3px 3px aquamarine;
+}
+
+.marca{
+	text-align: center;
+	font-family: serif;
+	text-shadow: 2px 3px 3px #ccff33;
+}
+
+strong{
+	font-family: serif;
+	color: blue;
+}
+
+.btn{
+	color: white;
+}
+
+#texto{
+	font-size: 16px;
+}
+
+.form-control{
+	font-size: 14px;
+}
+
+.catalogo{
+	background: rgb(46, 247, 196);
+}
+
+#menu:hover{
+	background: #009900;
+}
+
+
+
+.cor{
+color: yellow;	
+}
+.foo{
+	background: black;
+	color: white;
+}
+
+#ini{
+	font-size: 15px;
+}
+
+#esa{
+	font-size: 14px;
+}
+
+.es{
+	font-size: 14px;
+}
